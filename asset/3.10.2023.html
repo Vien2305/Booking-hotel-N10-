@@ -1,0 +1,17 @@
+<h1>Phần 1</h1>
+<div id="nhom3"><p>Kết quả học tập</p></div>
+<h1>Phần 2</h1>
+<div id="nhom4"><p>Hoạt động ngoại khóa</p></div>
+
+<script>
+	var p3 = document.createElement("p");
+	var p4 = document.createElement("p");
+	var txt3 = document.createTextNode("Kết quả rèn luyện");
+	var txt4 = document.createTextNode("Hoạt động cộng đồng");
+	p3.appendChild(txt3); 
+	p4.appendChild(txt4); 
+	var div1 = document.getElementById("nhom3");
+	div1.appendChild(p3);
+	var div2 = document.getElementById("nhom4");
+	div2.appendChild(p4);
+</script>

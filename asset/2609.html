@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kiểm tra ô nhập liệu</title>
+</head>
+<body>
+  <input type="text" id="box1" placeholder="Nhập tên người dùng">
+  <button onclick="kiemTraRong()">Kiểm tra</button>
+
+  <script>
+    function kiemTraRong() {
+      const box1Input = document.getElementById('box1');
+      if (box1Input.value === "") {
+        alert("Nhập dữ liệu");
+      }
+    }
+  </script>
+</body>
+</html>

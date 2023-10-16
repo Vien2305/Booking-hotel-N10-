@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+<style> 
+form{
+    height: 500px;
+    width: 700px;
+    background-color: rgba(111, 0, 255, 0.3); 
+    border: 1px solid #ccc;
+    position: center; 
+
+}</style>
+</head>
+<body>
+    <form >
+        <h1> <center> Đăng nhập </center></h1>
+        <p> Username 
+        <input type="text" name = "username" size="15" maxlength="30" placeholder="Nhập tài khoản"/>
+    </p>
+    <p> Password 
+        <input type="password" name="Password" size="15" maxlength="30" placeholder="Nhập mật khẩu">
+    </p>
+    <button onclick="CheckInput()">Kiểm tra </button>
+    <button onclick="resetButton()">Nhập lại</button>
+    </form>
+    <div id="Kết Quả" style="display:none;">
+        <p> Tài khoản của bạn là: <span id="display"></span></p>
+
+    </div>
+</body>
+</html>
